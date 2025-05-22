@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "microfrontends-nextjs-app-multi-zone-marketing": {
+      "development": {
+        "local": 3000,
+        "fallback": "microfrontends-nextjs-app-multi-zone-marketing.vercel.app"
+      }
+    },
+    "microfrontends-nextjs-app-multi-zone-docs": {
+      "development": {
+        "local": 3001
+      },
+      "routing": [
+        {
+          "group": "docs",
+          "paths": ["/docs", "/docs/:path*"]
+        }
+      ]
+    }
+  }
+}
