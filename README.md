@@ -4,11 +4,13 @@
   <img src="https://assets.vercel.com/image/upload/v1689795055/docs-assets/static/docs/microfrontends/mfe-banner-light.png" alt="Vercel Microfrontends">
 </picture>
 
-# @vercel/microfrontends multi-zone example with Next.js App Router
+# Vercel Microfrontends - Next.js Multi-Zones example
 
 **An official Vercel example demonstrating production-ready multi-zone microfrontend architecture**
 
-This comprehensive example showcases how to build and deploy a multi-zone microfrontend application using [@vercel/microfrontends](https://vercel.com/docs/microfrontends) with [Next.js App Router](https://nextjs.org/docs/app/building-your-application/routing). Learn how to architect independent, deployable frontend applications that work together seamlessly while maintaining team autonomy and deployment independence.
+This comprehensive example showcases how to build and deploy a multi-zone microfrontend application using [Vercel Microfrontends](https://vercel.com/docs/microfrontends) with [Next.js App Router](https://nextjs.org/docs/app/building-your-application/routing). Learn how to architect independent, deployable frontend applications that work together seamlessly while maintaining team autonomy and deployment independence.
+
+Demo URL: https://vercel-microfrontends-multi-zones.vercel.app/
 
 ## 🚀 Deploy to Vercel
 
@@ -214,13 +216,16 @@ During development, both applications run simultaneously, and the routing happen
 
 In production, each microfrontend is deployed independently to Vercel, and the routing configuration ensures requests are directed to the correct deployment.
 
+
+Learn more in the [routing documentation](https://vercel.com/docs/microfrontends/path-routing).
+
 ---
 
 ## Development Workflow
 
 ### Working with Individual Microfrontends
 
-You can develop microfrontends in isolation:
+You can develop microfrontends in isolation using the [microfrontends local development proxy](https://vercel.com/docs/microfrontends/local-development):
 
 ```bash
 # Work on the marketing application only
@@ -254,6 +259,8 @@ pnpm checks
 2. **Update `microfrontends.json`** to include routing rules
 3. **Add the new app** to the workspace configuration
 4. **Configure deployment** settings for the new microfrontend
+
+Learn more in the [Managing Microfrontends](https://vercel.com/docs/microfrontends/managing-microfrontends) documentation.
 
 ---
 
@@ -391,9 +398,13 @@ The marketing app defines how to route to the docs microfrontend:
 }
 ```
 
-### Cross-Microfrontend Navigation
+### Optimizing Cross-Microfrontend Navigation
 
-Use the enhanced `Link` component for seamless navigation between zones:
+The `@vercel/microfrontends` package can be used to prefetch and prerender links to other microfrontends.
+
+First, embed the `PrefetchCrossZoneLinksProvider` element in the root `layout.tsx` of your application.
+
+Then, use the enhanced `Link` component for seamless optimized navigation between zones:
 
 ```tsx
 // In marketing app - navigating to docs
@@ -404,3 +415,5 @@ import { Link } from '@vercel/microfrontends/next/client';
 ```
 
 This setup enables the marketing app to seamlessly route `/docs` requests to the documentation microfrontend while maintaining a unified user experience.
+
+Learn more in the [Optimizing Hard Navigations](https://vercel.com/docs/microfrontends/managing-microfrontends#optimizing-navigations-between-microfrontends) documentation.
