@@ -1,13 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "microfrontends-nextjs-app-multi-zone-marketing": {
+    "microfrontends-marketing": {
       "development": {
         "local": 3000,
-        "fallback": "microfrontends-nextjs-app-multi-zone-marketing.vercel.app"
+        "fallback": "microfrontends-marketing.labs.vercel.dev"
       }
     },
-    "microfrontends-nextjs-app-multi-zone-docs": {
+    "microfrontends-docs": {
       "development": {
         "local": 3001
       },
