@@ -341,7 +341,6 @@ Built-in integration with:
 **Port conflicts during development:**
 
 ```bash
-# Kill processes using the required ports
 npx kill-port 3000 3001
 pnpm dev
 ```
