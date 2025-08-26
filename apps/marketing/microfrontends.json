@@ -1,20 +1,20 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "microfrontends-marketing": {
+    "marketing": {
       "development": {
         "local": 3000,
-        "fallback": "microfrontends-marketing.labs.vercel.dev"
+        "fallback": "marketing.labs.vercel.dev"
       }
     },
-    "microfrontends-docs": {
+    "blog": {
       "development": {
         "local": 3001
       },
       "routing": [
         {
-          "group": "docs",
-          "paths": ["/docs", "/docs/:path*"]
+          "group": "blog",
+          "paths": ["/blog", "/blog/:path*"]
         }
       ]
     }

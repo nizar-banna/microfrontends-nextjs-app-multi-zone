@@ -41,9 +41,9 @@ export default function Home() {
               <li>
                 <Link
                   className="text-blue-600 hover:text-blue-800"
-                  href="/docs"
+                  href="/blog"
                 >
-                  Docs
+                  Blog
                 </Link>
               </li>
             </ul>
@@ -80,8 +80,8 @@ function HeroSection() {
           microfrontend architecture.
         </p>
         <div className="mt-8">
-          <Link href="/docs">
-            <Button size="lg">Get Started</Button>
+          <Link href="/blog">
+            <Button size="lg">Read Blog</Button>
           </Link>
         </div>
       </div>
