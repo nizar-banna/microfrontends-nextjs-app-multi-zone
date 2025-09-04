@@ -1,7 +1,6 @@
 {
   "name": "microfrontends-nextjs-app-multi-zone",
   "version": "0.0.0",
-  "private": true,
   "description": "Vercel microfrontends Next.js multi-zone example",
   "bugs": {
     "url": "https://github.com/vercel-labs/microfrontends-nextjs-app-multi-zone/issues"
@@ -12,13 +11,13 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "turbo run build --no-daemon",
+    "build": "turbo build",
     "checks": "turbo run build lint typecheck",
-    "dev": "turbo run dev --no-daemon",
+    "dev": "turbo dev",
     "format": "prettier --write \"**/*.{ts,tsx,md,json,jsonc}\"",
-    "lint": "turbo run lint",
-    "start": "turbo run start",
-    "typecheck": "turbo run typecheck"
+    "lint": "turbo lint",
+    "start": "turbo start",
+    "typecheck": "turbo typecheck"
   },
   "lint-staged": {
     "**/*.{ts,tsx,md,json,jsonc}": [
@@ -32,7 +31,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "prettier": "^3.4.2",
-    "turbo": "^2.5.2",
+    "turbo": "2.5.2-canary.0",
     "typescript": "5.7.3"
   },
   "packageManager": "pnpm@9.4.0",
