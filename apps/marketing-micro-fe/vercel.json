@@ -1,4 +1,0 @@
-{
-    "buildCommand": "pnpm --workspace-root exec turbo --no-daemon --filter marketing-micro-fe build --env-mode loose",
-    "installCommand": "node -v && pnpm --workspace-root --filter marketing-micro-fe... install --config.dedupe-peer-dependents=false"
-}
