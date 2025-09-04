@@ -24,8 +24,8 @@ importers:
         specifier: ^3.4.2
         version: 3.5.3
       turbo:
-        specifier: 2.5.2-canary.0
-        version: 2.5.2-canary.0
+        specifier: ^2.5.2
+        version: 2.5.6
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -3492,38 +3492,38 @@ packages:
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
 
-  turbo-darwin-64@2.5.2-canary.0:
-    resolution: {integrity: sha512-JO65xZrLyXdGYfv/XsvEF9vxtltO4kB/us2XP6tKCXCiNflmvSi+OTmqljLeW/gkMjblhy31t8B+FLKESdtFfg==}
+  turbo-darwin-64@2.5.6:
+    resolution: {integrity: sha512-3C1xEdo4aFwMJAPvtlPqz1Sw/+cddWIOmsalHFMrsqqydcptwBfu26WW2cDm3u93bUzMbBJ8k3zNKFqxJ9ei2A==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.5.2-canary.0:
-    resolution: {integrity: sha512-S6D5uOw6cIVmUkF3iiiFQSW43A/xGBMxrAGq3hGt+khsQBD+3USzJw4xCi/U2Vhgx6nhqkqbT6wQikp888SDKw==}
+  turbo-darwin-arm64@2.5.6:
+    resolution: {integrity: sha512-LyiG+rD7JhMfYwLqB6k3LZQtYn8CQQUePbpA8mF/hMLPAekXdJo1g0bUPw8RZLwQXUIU/3BU7tXENvhSGz5DPA==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.5.2-canary.0:
-    resolution: {integrity: sha512-Ec2r/SiO5Ld+S+/hdBg8k7k/qLZD9TKWvWGPfpeUUM+s+EZkkSYqTYXp1aeB8mbdfVYBmP2YXcWZyH9+VoaQ4g==}
+  turbo-linux-64@2.5.6:
+    resolution: {integrity: sha512-GOcUTT0xiT/pSnHL4YD6Yr3HreUhU8pUcGqcI2ksIF9b2/r/kRHwGFcsHgpG3+vtZF/kwsP0MV8FTlTObxsYIA==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.5.2-canary.0:
-    resolution: {integrity: sha512-mHcQ2XRfW7S2OuZlh6z3gneC3yndLngtzR17w5xPa856LYYGky7OhLX05uds42oUt7v3S8KJa/FRI1P3EuGJtw==}
+  turbo-linux-arm64@2.5.6:
+    resolution: {integrity: sha512-10Tm15bruJEA3m0V7iZcnQBpObGBcOgUcO+sY7/2vk1bweW34LMhkWi8svjV9iDF68+KJDThnYDlYE/bc7/zzQ==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.5.2-canary.0:
-    resolution: {integrity: sha512-DB+7qwuc0U66F/kLnBT8U4GNQMnd0zvuqCMNVTVx89+/BQ5M5S0ybOJ9yVwwnuF8aZ4PB9fn8+xItzvlPAXkAA==}
+  turbo-windows-64@2.5.6:
+    resolution: {integrity: sha512-FyRsVpgaj76It0ludwZsNN40ytHN+17E4PFJyeliBEbxrGTc5BexlXVpufB7XlAaoaZVxbS6KT8RofLfDRyEPg==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.5.2-canary.0:
-    resolution: {integrity: sha512-Gj9CTE/XU58KQxuYCKl3I20XiQ31GYzm9MmKsSgRATHPl+SFge8/FVzMrTgQT3Cjke47+rzkl6gx1JQ/XaE4Mw==}
+  turbo-windows-arm64@2.5.6:
+    resolution: {integrity: sha512-j/tWu8cMeQ7HPpKri6jvKtyXg9K1gRyhdK4tKrrchH8GNHscPX/F71zax58yYtLRWTiK04zNzPcUJuoS0+v/+Q==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.5.2-canary.0:
-    resolution: {integrity: sha512-e8dN0h5kwDyafq2VS4VzAgVlIiXIHuTFMyHNRLgUTrnl3KQvMBm/ILPH4vdWM4njN9DWjOamH0esen10AQC2HA==}
+  turbo@2.5.6:
+    resolution: {integrity: sha512-gxToHmi9oTBNB05UjUsrWf0OyN5ZXtD0apOarC1KIx232Vp3WimRNy3810QzeNSgyD5rsaIDXlxlbnOzlouo+w==}
     hasBin: true
 
   type-check@0.4.0:
@@ -7407,32 +7407,32 @@ snapshots:
       tslib: 1.14.1
       typescript: 5.7.3
 
-  turbo-darwin-64@2.5.2-canary.0:
+  turbo-darwin-64@2.5.6:
     optional: true
 
-  turbo-darwin-arm64@2.5.2-canary.0:
+  turbo-darwin-arm64@2.5.6:
     optional: true
 
-  turbo-linux-64@2.5.2-canary.0:
+  turbo-linux-64@2.5.6:
     optional: true
 
-  turbo-linux-arm64@2.5.2-canary.0:
+  turbo-linux-arm64@2.5.6:
     optional: true
 
-  turbo-windows-64@2.5.2-canary.0:
+  turbo-windows-64@2.5.6:
     optional: true
 
-  turbo-windows-arm64@2.5.2-canary.0:
+  turbo-windows-arm64@2.5.6:
     optional: true
 
-  turbo@2.5.2-canary.0:
+  turbo@2.5.6:
     optionalDependencies:
-      turbo-darwin-64: 2.5.2-canary.0
-      turbo-darwin-arm64: 2.5.2-canary.0
-      turbo-linux-64: 2.5.2-canary.0
-      turbo-linux-arm64: 2.5.2-canary.0
-      turbo-windows-64: 2.5.2-canary.0
-      turbo-windows-arm64: 2.5.2-canary.0
+      turbo-darwin-64: 2.5.6
+      turbo-darwin-arm64: 2.5.6
+      turbo-linux-64: 2.5.6
+      turbo-linux-arm64: 2.5.6
+      turbo-windows-64: 2.5.6
+      turbo-windows-arm64: 2.5.6
 
   type-check@0.4.0:
     dependencies:
