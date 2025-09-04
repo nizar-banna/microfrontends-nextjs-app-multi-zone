@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "microfrontends-marketing": {
+    "marketing-micro-fe": {
       "development": {
         "local": 3000,
         "fallback": "microfrontends-marketing.labs.vercel.dev"
