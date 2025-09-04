@@ -17,6 +17,17 @@
           "paths": ["/docs", "/docs/:path*"]
         }
       ]
+    },
+    "coinbits-blog": {
+      "development": {
+        "local": 3002
+      },
+      "routing": [
+        {
+          "group": "blog",
+          "paths": ["/blog", "/blog/:path*"]
+        }
+      ]
     }
   }
 }
